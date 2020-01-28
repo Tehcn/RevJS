@@ -7,6 +7,9 @@
 */
 //Start RevJS
 
+//DOM Manipulation
+
+
 //Replaces console.log
 function log(x) {
 	console.log(x);
@@ -22,4 +25,25 @@ function append(element, x) {
 //Prepends Text To An Element
 function prepend(element, x) {
 	$(element).prepend(x);
+}
+
+
+//CSS Styling
+
+
+//Text Color
+function color(element, x) {
+	$(element).css('color', x);
+}
+//Background Color
+function bgcolor(element, x) {
+	$(element).css('background-color', x);
+}
+//Font Family
+function font(element, x) {
+    $(element).css('font-family', x);
+}
+//Animation
+function translate(element, endLoc) {
+    
 }
